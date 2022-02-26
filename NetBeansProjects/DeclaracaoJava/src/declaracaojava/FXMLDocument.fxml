@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="declaracaojava.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="89.0" layoutY="110.0" mnemonicParsing="false" onAction="#clicouBotao" prefHeight="34.0" prefWidth="142.0" text="Clique em mim!" textFill="#e85f2d" />
+      <Label fx:id="lblTexto" layoutX="53.0" layoutY="31.0" prefHeight="74.0" prefWidth="221.0" textFill="#d71010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
